@@ -1,23 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ghibli App</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
 </head>
+
 <body>
-  <script>
-      var url = 'https://newsapi.org/v2/everything?' +
-          'q=Apple&' +
-          'from=2019-02-20&' +
-          'sortBy=popularity&' +
-          'apiKey=a8a82c45de5a4ed3a32ed2d1673c721d';
 
-      var req = new Request(url);
+<div id="root"></div>
 
-      fetch(req)
-          .then(function(response) {
-              console.log(response.json());
-          })
-  </script>
+<script src="scripts.js"></script>
 </body>
+
 </html>
