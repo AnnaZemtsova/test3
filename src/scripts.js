@@ -8,6 +8,7 @@ request.onload = function () {
     if (request.status >= 200 && request.status < 400) {
         data.forEach(movie => {
             console.log(movie.title);
+            asdfasfd
         });
     } else {
         console.log('ERROR');
