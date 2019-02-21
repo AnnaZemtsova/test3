@@ -10,7 +10,7 @@ request.onload = function () {
             console.log(movie.title);
         });
     } else {
-        console.log('error');
+        console.log('ERROR');
     }
 };
 
